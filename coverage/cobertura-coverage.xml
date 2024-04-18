@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="53" lines-covered="47" line-rate="0.8867" branches-valid="27" branches-covered="21" branch-rate="0.7777" timestamp="1710242961823" complexity="0" version="0.1">
+  <sources>
+    <source>D:/Bonobo/devexpressVitestError</source>
+  </sources>
+  <packages>
+    <package name="devexpressVitestError" line-rate="0" branch-rate="1">
+      <classes>
+        <class name=".eslintrc.cjs" filename=".eslintrc.cjs" line-rate="0" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="devexpressVitestError.src" line-rate="0.875" branch-rate="1">
+      <classes>
+        <class name="App.tsx" filename="src\App.tsx" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="App" hits="3" signature="()V">
+              <lines>
+                <line number="14" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="66" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="3" signature="()V">
+              <lines>
+                <line number="75" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="3" signature="()V">
+              <lines>
+                <line number="87" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="2" signature="()V">
+              <lines>
+                <line number="114" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="3" branch="false"/>
+            <line number="17" hits="3" branch="false"/>
+            <line number="30" hits="3" branch="false"/>
+            <line number="66" hits="3" branch="false"/>
+            <line number="75" hits="3" branch="false"/>
+            <line number="88" hits="3" branch="false"/>
+            <line number="114" hits="2" branch="false"/>
+          </lines>
+        </class>
+        <class name="main.tsx" filename="src\main.tsx" line-rate="0" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="devexpressVitestError.src.DataGridColumnCell" line-rate="1" branch-rate="0.5">
+      <classes>
+        <class name="DataGridColumnCell.tsx" filename="src\DataGridColumnCell\DataGridColumnCell.tsx" line-rate="1" branch-rate="0.5">
+          <methods>
+            <method name="DataGridColumnCell" hits="6" signature="()V">
+              <lines>
+                <line number="5" hits="6"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="6" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="devexpressVitestError.src.DataGridHeaderCell" line-rate="1" branch-rate="0.25">
+      <classes>
+        <class name="DataGridHeaderCell.tsx" filename="src\DataGridHeaderCell\DataGridHeaderCell.tsx" line-rate="1" branch-rate="0.25">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="8" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="3" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="devexpressVitestError.src.DevExpressRichTextEditor" line-rate="0.9024" branch-rate="0.9047">
+      <classes>
+        <class name="DevExpressRichTextEditor.tsx" filename="src\DevExpressRichTextEditor\DevExpressRichTextEditor.tsx" line-rate="0.9024" branch-rate="0.9047">
+          <methods>
+            <method name="DevExpressRichTextEditor" hits="10" signature="()V">
+              <lines>
+                <line number="25" hits="10"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="5" signature="()V">
+              <lines>
+                <line number="43" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="1" signature="()V">
+              <lines>
+                <line number="45" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="4" signature="()V">
+              <lines>
+                <line number="50" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="67" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="68" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="69" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="4" signature="()V">
+              <lines>
+                <line number="98" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="8" signature="()V">
+              <lines>
+                <line number="104" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_9)" hits="1" signature="()V">
+              <lines>
+                <line number="118" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_10)" hits="1" signature="()V">
+              <lines>
+                <line number="122" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="10" branch="false"/>
+            <line number="36" hits="10" branch="false"/>
+            <line number="38" hits="10" branch="false"/>
+            <line number="39" hits="10" branch="false"/>
+            <line number="40" hits="10" branch="false"/>
+            <line number="41" hits="10" branch="false"/>
+            <line number="43" hits="10" branch="false"/>
+            <line number="44" hits="5" branch="true" condition-coverage="100% (4/4)"/>
+            <line number="45" hits="1" branch="false"/>
+            <line number="46" hits="1" branch="false"/>
+            <line number="50" hits="10" branch="false"/>
+            <line number="51" hits="4" branch="false"/>
+            <line number="52" hits="4" branch="false"/>
+            <line number="53" hits="4" branch="false"/>
+            <line number="55" hits="4" branch="false"/>
+            <line number="60" hits="4" branch="false"/>
+            <line number="62" hits="4" branch="false"/>
+            <line number="67" hits="4" branch="false"/>
+            <line number="68" hits="0" branch="false"/>
+            <line number="69" hits="0" branch="false"/>
+            <line number="73" hits="4" branch="false"/>
+            <line number="74" hits="4" branch="false"/>
+            <line number="76" hits="4" branch="false"/>
+            <line number="88" hits="4" branch="false"/>
+            <line number="89" hits="4" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="90" hits="0" branch="false"/>
+            <line number="92" hits="4" branch="false"/>
+            <line number="94" hits="4" branch="false"/>
+            <line number="96" hits="4" branch="false"/>
+            <line number="98" hits="4" branch="false"/>
+            <line number="99" hits="4" branch="false"/>
+            <line number="100" hits="4" branch="false"/>
+            <line number="104" hits="10" branch="false"/>
+            <line number="105" hits="8" branch="true" condition-coverage="100% (4/4)"/>
+            <line number="106" hits="1" branch="false"/>
+            <line number="110" hits="10" branch="false"/>
+            <line number="119" hits="1" branch="false"/>
+            <line number="120" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="121" hits="1" branch="false"/>
+            <line number="123" hits="1" branch="false"/>
+            <line number="126" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
