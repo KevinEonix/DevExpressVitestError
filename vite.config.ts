@@ -14,7 +14,8 @@ export default defineConfig(function () {
       alias: {
         'tailwind.config.js': path.resolve(__dirname, 'tailwind.config.js'),
         '@': path.resolve(__dirname, './src')
-      }
+      },
+      mainFields: ['module', 'browser', 'jsnext:main', 'jsnext']
     },
     optimizeDeps: { include: [path.resolve(__dirname, 'tailwind.config.js')] },
     server: {

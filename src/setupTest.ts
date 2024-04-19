@@ -1,19 +1,27 @@
 import '@testing-library/jest-dom';
 
-vi.mock('devextreme/core/utils/window', async () => {
-    const actualModule = await vi.importActual('devextreme/esm/core/utils/window');
+vi.mock("devextreme/core/utils/window", async () => {
+    const actualModule = (await vi.importActual("devextreme/esm/core/utils/window")) 
     return {
         __esModule: true,
-        // @ts-ignore
         ...actualModule,
-        getWindow: () => ({ getComputedStyle: vi.fn(() => ({ fontFamily: 'dx.generic.light' })) })
-    };
-});
+        hasWindow: () => false,
+        getWindow: () => {
+            return {
+                length: 0,
+                nodeType: 1,
+                window: {},
+                getComputedStyle: vi.fn(() => ({
+                    fontFamily: "dx.generic.light",
+                })),
+            }
+        },
+    }
+})
 vi.mock('devextreme/core/utils/position', async () => {
     const actualModule = (await vi.importActual('devextreme/esm/core/utils/position'));
     return {
         __esModule: true,
-        // @ts-ignore
         ...actualModule,
         getBoundingRect: () => ({
             return: {
