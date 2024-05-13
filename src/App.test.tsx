@@ -24,4 +24,4 @@ describe('Given an instance of App', () => {
     // Then the datagrid is rendered
     expect(await screen.findByRole('button', {name: 'Update file'})).toBeInTheDocument();
   });
-}, {repeats: 10});
+});

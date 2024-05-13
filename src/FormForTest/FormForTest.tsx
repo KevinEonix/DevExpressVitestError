@@ -4,7 +4,12 @@ import {DevExpressDatePickerField} from "@/DevExpressDatePickerField";
 import dayjs from "dayjs";
 
 function FormForTest() {
- const {handleSubmit, control} = useForm();
+ const {handleSubmit, control} = useForm({
+     defaultValues: {
+         test: undefined,
+         userEventTest: ''
+     }
+ });
 
  return (
   <form onSubmit={handleSubmit(async (data) => {
@@ -23,6 +28,16 @@ function FormForTest() {
             }}
             value={value}
         />
+    )}
+   />
+   <Controller
+    control={control}
+    name="userEventTest"
+    render={({field: {onChange, value, name}}) => (
+        <div>
+            <label htmlFor="userEventTestField">Test field label</label>
+            <input type="text" name={name} id="userEventTestField" onChange={onChange} value={value}/>
+        </div>
     )}
    />
   </form>
