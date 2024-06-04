@@ -29,7 +29,6 @@ export default defineConfig(function () {
     },
     test: {
       globals: true,
-      define: { IS_REACT_ACT_ENVIRONMENT: true },
       testTimeout: 20000,
       environment: 'jsdom',
       setupFiles: ['./src/setupTest.ts'],
